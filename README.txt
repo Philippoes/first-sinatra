@@ -15,6 +15,19 @@ ruby gem rack-test:
 Helps you do sinatra tests.
 
 2:
-The minimum requirements for a html-5 page is an index file with some html code inside of it(like <p>Hi</p>). Which would give you a static white page with "Hi" in a black font. This page would be only visible to you.
+
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8"
+  <title>title</title>
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <content>
+</body>
+
+this in an index file is what you need for creating a html-5 page.
+
+
 3:
 Assets are the visual parts of the page, like the font, images, css(colors, sizes etc), and animation.
